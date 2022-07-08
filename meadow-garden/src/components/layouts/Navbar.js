@@ -11,6 +11,11 @@ export default function Navbar() {
           <a href='/contact'>Contact</a>
           <a href='/about'>About</a>
       </div>
+      <div className='login'>
+        <input type="text" id='username' placeholder='username'/>
+        <input type="password" id='password'placeholder='password'/>
+         
+      </div>
     </nav>
   )
 }
