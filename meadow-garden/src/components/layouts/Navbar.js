@@ -1,5 +1,6 @@
 import React from 'react'
 import './Layout.css'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -14,7 +15,8 @@ export default function Navbar() {
       <div className='login'>
         <input type="text" id='username' placeholder='username'/>
         <input type="password" id='password'placeholder='password'/>
-         
+        <button type='submit'className='btn-login'>Login</button>
+
       </div>
     </nav>
   )
